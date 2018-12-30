@@ -116,7 +116,7 @@ restService.post("/storytime", function(req, res) {
   return res.json({
     speech: speech,
     displayText: speech,
-    source: "dialogflow-storytime-app"
+    source: "Webhook-echo-sample"
   });
 });
 
